@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- HTML: Form and input Tags -->
+    <meta charset="UTF-8">
+    <title>HTML5 Form Example</title>
+</head>
+<body>
+
+    <!-- Example of form tag -->
+    <form action="/submit-form" method="post">
+
+        <!-- Example of label and input tags -->
+        <br><label for="name">Nombre</label>
+        <input type="text" name="name"required placeholder="Escriba el nombre"><br>
+        <label for="name">Email</label>
+        <input type="email" name="email"required placeholder="Ingrese su correo">
+        <br><label for="bio"> Biografía </label>
+        <textarea name="bio" rows="4" cols="50"></textarea>
+
+        <fieldset>
+            <legend>Género:</legend>
+            <label><input type="radio" name="genero" value="male"> Masculino</label>
+            <label><input type="radio" name="genero" value="female"> Femenino</label>
+            <label><input type="radio" name="genero" value="other"> Otro</label>       
+        </fieldset>
+
+        <!-- Example of datalist tag -->
+        <label for="browser">Elija un navegador de la lista:</label>
+        <input list="browsers" id="browser" name="browser">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Edge">
+            <option value="Opera">
+        </datalist>
+
+        <!-- Example of button tag -->
+            <br><button type="submit">Enviar</button>
+
+    </form> 
+</body>
+</html>     

@@ -1,0 +1,42 @@
+.container-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 2px solid #160f0f;
+    border-radius: 5px;
+}
+  
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+  
+label {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #00bbff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #929496;
+}
+
+@media screen and (max-width: 960px) {
+
+}
+  
+@media screen and (max-width: 650px) {
+      .container-form {
+        background: #DDD;
+        border-bottom: 1px solid;
+        padding: 8px;
+        text-align: center;
+    }
+}   

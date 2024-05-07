@@ -1,0 +1,33 @@
+.container-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #159c35;
+  border-radius: 15px;
+}
+  
+form {
+  display: flex;
+  flex-direction: column;
+}
+  
+.campo {
+  margin-bottom: 15px;
+}
+  
+.boton-enviar {
+  margin-top: 10px;
+}
+  
+button {
+  padding: 10px 20px;
+  background-color: #464a4e;
+  color: rgba(245, 244, 244, 0.92);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;  
+}
+  
+button:hover {
+  background-color: #830e52;
+}
